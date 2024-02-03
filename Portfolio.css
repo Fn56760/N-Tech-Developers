@@ -1,0 +1,83 @@
+*{
+    margin: 1%;
+    padding: 0%;
+    background-color: rgb(31, 29, 29);
+}
+.Navigation nav {
+
+    text-align: center;
+    text-size-adjust: 40%;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-decoration-line: none;
+    text-shadow: transparent;
+}
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    text-size-adjust: 30%;
+}
+nav a::before{
+    color: aliceblue;
+
+}
+nav a ::after{
+   color: aliceblue;
+
+}
+nav a:hover{
+     color: aqua;
+}
+
+nav a button {
+   padding: 14px 40px;
+   border-radius: 5px;
+   border-color: whitesmoke;
+   transition: 1.4s;
+   color: aliceblue;
+}
+nav a button:hover {
+  background-color: white;
+  color: black;
+}
+/*---------------------*/
+.About{
+    text-align: center;
+    margin-top: 11%;
+    color: aliceblue;
+}
+.About h1{
+    font-size: 50px;
+}
+.About button {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 14px 40px;
+    border-radius: 5px;
+    border-color: whitesmoke;
+    transition: 1.4s;
+}
+    .About button::before{
+        color: aliceblue;
+    
+    }
+    .About button
+    ::after{
+       color: aliceblue;
+    
+ }
+ .About button:hover {
+    background-color: white;
+    
+ }
+ 
+ .About button a {
+    color: aliceblue;
+    text-decoration: none;
+   text-size-adjust: 30%;
+
+ }
+ 
+ /*-----------------------*/
+
+
